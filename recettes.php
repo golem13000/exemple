@@ -34,6 +34,9 @@ for ($i == 0 ; $i < $size ; $i++) {
     $cout = $recette_test[$i]["cout]"; 
     $ingredient = $recette_test[$i]["ingredient"];
     $etape = $recette_test[$i]["etape"]; 
+
+    $inter = explode("///",$ingredient);
+    $inter = explode("///",$etape);
 }*/
 
    
