@@ -9,9 +9,8 @@ $recette_test = [
     "cout" => "3/4",
     "ingredient" => "1 paquet de pâtes de lasagnes /// 3 oignons jaunes /// 3 gousses d'ail /// 1 branche de céleri /// 1 carotte /// etc",
     "etape" => "Faire revenir gousses hachées d'ail et les oignons émincés dans un peu d'huile d'olive. /// Ajouter la carotte et la branche de céleri hachée puis la viande et faire revenir le tout. /// Au bout de quelques minutes, ajouter le vin rouge. Laisser cuire jusqu'à évaporation.",
+];
 
-
-]
 
 $size = sizeof($recette_test)
 
