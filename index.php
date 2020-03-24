@@ -1,5 +1,5 @@
 <?php
-    var_dump($_GET);
+    //var_dump($_GET);
 
     $page = isset($_GET["page"])? $_GET["page"] : "home";
 
@@ -34,7 +34,7 @@
             <?php require "html/menu.php" ?>
         </header>
         
-        <?php require $input ?>
+        <?php require $include ?>
         
     </body>
 
