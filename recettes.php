@@ -26,14 +26,14 @@ $etape ="";
 
 for ($i == 0 ; $i < $size ; $i++) {
     
-    $titre = "";
-    $image = "";
-    $temps = "";
-    $personnes = "";
-    $dificult = "";
-    $cout = ""; 
-    $ingredient = "";
-    $etape = ""; 
+    $titre = $recette_test[$i]["titre"];
+    $image = $recette_test[$i]["image"];
+    $temps = $recette_test[$i]["temps"];
+    $personnes = $recette_test[$i]["personnes"];
+    $dificult = $recette_test[$i]["dificulté"];
+    $cout = $recette_test[$i]["cout]"; 
+    $ingredient = $recette_test[$i]["ingredient"];
+    $etape = $recette_test[$i]["etape"]; 
 }*/
 
    

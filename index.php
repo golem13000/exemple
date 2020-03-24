@@ -3,11 +3,11 @@
 
 
     // ROUTER 
-    $page = isset($_GET["page"])? $_GET["page"] : "home";
+    $page = isset($_GET["page"])? $_GET["page"] : "entree";
 
     switch ($page) {
         case "home":
-            $include = "recettes/home.html";
+            $include = "recettes/entree.html";
             break;
         case "entree":
             $include = "recettes/entree.html";
@@ -37,7 +37,7 @@
     
     <body>
         <header>
-            <?php require "html/menu.php" ?>
+            <?php require "menu.php" ?>
         </header>
 
         <section class="content">
